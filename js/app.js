@@ -74,8 +74,8 @@ function addStations(map) {
     source: 'stations',
     paint: {
       'circle-radius': ['interpolate', ['linear'], ['zoom'], 9, 3, 14, 7],
-      'circle-color': '#D98E3B',
-      'circle-stroke-color': '#12283A',
+      'circle-color': '#000000',
+      'circle-stroke-color': '#ffffff',
       'circle-stroke-width': 1.5
     }
   });
